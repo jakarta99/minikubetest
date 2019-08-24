@@ -1,0 +1,2 @@
+# minikubetest
+test minikube

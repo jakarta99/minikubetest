@@ -58,12 +58,8 @@ sudo install minikube /usr/local/bin
 ```
 啟動 minikube
 ```
-minikube start --extra-config=apiserver.authorization-mode=RBAC
-kubectl create clusterrolebinding add-on-cluster-admin --clusterrole=cluster-admin --serviceaccount=kube-system:default
+minikube start
 ```
-不加上 authorization mode 可能啟動 dashboard 會有 Temporary Error: unexpected response code: 503 的異常
-(https://gist.github.com/F21/08bfc2e3592bed1e931ec40b8d2ab6f5)
-
 測試 minikube 啟動結果
 ```
 minikube status
@@ -73,5 +69,6 @@ minikube status
 ```
 minikube dashboard
 ```
+如果 dashboard 啟動失敗, 先執行 ```minikube delete``` 再重新一次看看.
 
 

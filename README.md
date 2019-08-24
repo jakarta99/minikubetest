@@ -72,3 +72,4 @@ minikube dashboard
 如果 dashboard 啟動失敗, 先執行 ```minikube delete``` 再重新一次看看.
 
 
+![Dashboard](https://user-images.githubusercontent.com/1997268/63643843-bd3df500-c70c-11e9-9c8c-713eab2e0d94.png)

@@ -76,4 +76,4 @@ minikube dashboard
 
 
 # 更多資訊請查看 wiki
-![Wiki](/wiki)
+![Wiki](https://github.com/jakarta99/minikubetest/wiki)
